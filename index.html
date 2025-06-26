@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashish Singh | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="particles-js"></div>
+  <div class="container">
+    <header data-aos="fade-up">
+      <h1>Ashish Singh</h1>
+      <p>CRM Manager | IT Operations | Safety Head | Data Analyst</p>
+    </header>
+
+    <section id="about" data-aos="fade-up">
+      <h2>About</h2>
+      <p>Experienced professional with a background in CRM operations, safety training, and IT support. Proven success in managing large datasets, training 1500+ drivers, and delivering actionable insights to improve operational efficiency. Currently pursuing B.Tech (CSE) from MDU.</p>
+    </section>
+
+    <section id="skills" data-aos="fade-right">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>MS Office</li><li>SQL</li><li>HTML</li><li>Power BI</li><li>Google Sheets</li>
+        <li>Looker Studio</li><li>CRM Platforms</li><li>Data Analysis</li><li>Training</li>
+      </ul>
+    </section>
+
+    <section id="experience" data-aos="fade-left">
+      <h2>Experience</h2>
+      <div class="job">
+        <h3>Safety Head – Masheye Infotech Pvt. Ltd</h3>
+        <p><em>2025 – Present, Gurugram</em></p>
+        <p>Trained 1000+ drivers across 20+ locations, implemented 24/7 control room support system.</p>
+      </div>
+      <div class="job">
+        <h3>CRM Manager – Masheye Infotech Pvt. Ltd</h3>
+        <p><em>Aug 2024 – Jan 2025, Gurugram</em></p>
+        <p>Improved customer response system and handled 500+ daily client queries.</p>
+      </div>
+      <div class="job">
+        <h3>Data Analysis Intern – WheelsEye</h3>
+        <p><em>Mar 2024 – Aug 2024, Gurugram</em></p>
+        <p>Managed Excel-based dashboards for 1M+ records. Assisted in SQL reporting.</p>
+      </div>
+      <div class="job">
+        <h3>PS – Amazon</h3>
+        <p><em>Jan 2020 – Nov 2020, Binola</em></p>
+        <p>Handled tech operations and logistics coordination.</p>
+      </div>
+    </section>
+
+    <section id="education" data-aos="fade-up">
+      <h2>Education</h2>
+      <div class="edu">
+        <h3>B.Tech in Computer Science Engineering – MDU (Pursuing)</h3>
+        <p>Expected Graduation: 2026</p>
+      </div>
+      <div class="edu">
+        <h3>Diploma in Computer Science Engineering – BTE</h3>
+        <p>2017 – 2020</p>
+      </div>
+    </section>
+
+    <section id="projects" data-aos="zoom-in">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Accidental Data Monitoring Dashboard</h3>
+        <p>Built using HTML, JavaScript, and Google Sheets API. Enabled real-time updates, Chart.js graphs, and Excel export.</p>
+      </div>
+    </section>
+
+    <section id="achievements" data-aos="fade-up">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Trained 1500+ drivers on safety and telematics.</li>
+        <li>Implemented CRM tools reducing response time by 40%.</li>
+        <li>Certified in Google Analytics & Data Structures.</li>
+      </ul>
+    </section>
+
+    <section id="contact" data-aos="flip-up">
+      <h2>Contact</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="social">
+        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/ashish-thakur" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Ashish Singh. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <!-- JS Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 800, once: true });
+    particlesJS("particles-js", {
+      particles: {
+        number: { value: 70 },
+        color: { value: "#58a6ff" },
+        shape: { type: "circle" },
+        opacity: { value: 0.3 },
+        size: { value: 3 },
+        line_linked: {
+          enable: true,
+          distance: 120,
+          color: "#58a6ff",
+          opacity: 0.4,
+          width: 1
+        },
+        move: { enable: true, speed: 2 }
+      },
+      interactivity: {
+        events: {
+          onhover: { enable: true, mode: "repulse" },
+          onclick: { enable: true, mode: "push" }
+        },
+        modes: {
+          repulse: { distance: 100 },
+          push: { particles_nb: 4 }
+        }
+      },
+      retina_detect: true
+    });
+  </script>
+</body>
+</html>
